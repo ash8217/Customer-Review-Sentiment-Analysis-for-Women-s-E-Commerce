@@ -1,36 +1,42 @@
-#### Introduction ####
+# Women’s Clothing E-Commerce Review Analysis  
 
-The project focuses on analyzing customer reviews from a Women’s Clothing E-Commerce dataset. It aims to derive insights from review texts, classify them as recommendations or not, and understand customer preferences and sentiments. The dataset comprises 23,486 reviews, each with several features like age, review text, rating, and recommendation status. 
+## Introduction  
+This project focuses on analyzing customer reviews from a **Women’s Clothing E-Commerce dataset**.  
+The goal is to derive insights from review texts, classify them as recommendations or not, and better understand customer preferences and sentiments.  
 
-#### Here is the tableau dashboard link to understand the data
-(https://public.tableau.com/app/profile/tirth.gala7456/viz/ClothingE-commerceReview/ReviewAnalysis)
-#### Inside repository
-1. Women Clothing Review Analysis (pdf): This file has the business report of the whole project. It includes information right from data preparation to final business application of the project.
-2. Women_Clothing_Reviews_Code (ipynb): This file contains the code of the whole project i.e., right from data preparation to testing model performance
-3. Women Clothing E-commerce Reviews (csv): File contains raw data downloaded from Kaggle
-#### Understanding spreadsheet data
+The dataset comprises **23,486 reviews**, each containing features such as **age, review text, rating, and recommendation status**.  
 
-This 23486 rows and 10 feature variables. Each row corresponds to a customer review, and includes the variables:
+📊 Tableau Dashboard for interactive data exploration:  
+[Clothing E-commerce Review Analysis](https://public.tableau.com/app/profile/tirth.gala7456/viz/ClothingE-commerceReview/ReviewAnalysis)  
 
-1. Clothing ID: Integer Categorical variable that refers to the specific piece being reviewed.
+---
 
-2. Age: Positive Integer variable of the reviewers age.
+## Repository Contents  
+- **Women Clothing Review Analysis (PDF)**: Business report covering all steps, from data preparation to final business application.  
+- **Women_Clothing_Reviews_Code (IPYNB)**: Jupyter Notebook with the complete code for data preparation, modeling, and performance evaluation.  
+- **Women Clothing E-commerce Reviews (CSV)**: Raw dataset downloaded from Kaggle.  
 
-3. Title: String variable for the title of the review.
+---
 
-4. Review Text: String variable for the review body.
+## Dataset Overview  
+The dataset contains **23,486 rows** and **10 feature variables**. Each row represents a customer review.  
 
-5. Rating: Positive Ordinal Integer variable for the product score granted by the customer from 1 Worst, to 5 Best.
+### Feature Variables  
+- **Clothing ID**: Integer categorical variable referring to the specific product reviewed.  
+- **Age**: Positive integer representing the reviewer’s age.  
+- **Title**: String variable with the review title.  
+- **Review Text**: String variable containing the main review body.  
+- **Rating**: Ordinal integer score (1 = Worst, 5 = Best).  
+- **Recommended IND**: Binary indicator (1 = Recommended, 0 = Not recommended).  
+- **Positive Feedback Count**: Positive integer representing how many customers found the review helpful.  
+- **Division Name**: Categorical variable indicating the high-level product division.  
+- **Department Name**: Categorical variable indicating the department.  
+- **Class Name**: Categorical variable indicating the product class.  
 
-6. Recommended IND: Binary variable stating where the customer recommends the product where 1 is recommended, 0 is not recommended.
+---
 
-7. Positive Feedback Count: Positive Integer documenting the number of other customers who found this review positive.
+## Conclusion  
+The project successfully applied **machine learning models** to analyze customer reviews.  
+Among them, the **LSTM model** showed strong performance in understanding and predicting customer recommendations.  
 
-8. Division Name: Categorical name of the product high level division.
-
-9. Department Name: Categorical name of the product department name.
-
-10. Class Name: Categorical name of the product class name.
-
-#### Conclusion
-The project successfully utilized different machine learning models to analyze customer reviews from an e-commerce platform. The LSTM model, in particular, showed promising results in understanding and predicting customer recommendations. This project demonstrates the potential of machine learning in extracting valuable insights from textual data, which can be pivotal for businesses in understanding customer sentiments and preferences.
+This demonstrates the potential of **machine learning for extracting valuable insights from textual data**, enabling businesses to better understand **customer sentiments and preferences**, and ultimately improve decision-making.  
