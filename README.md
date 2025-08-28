@@ -6,10 +6,7 @@ The goal is to derive insights from review texts, classify them as recommendatio
 
 The dataset comprises **23,486 reviews**, each containing features such as **age, review text, rating, and recommendation status**.  
 
-📊 Tableau Dashboard for interactive data exploration:  
-[Clothing E-commerce Review Analysis](https://public.tableau.com/app/profile/tirth.gala7456/viz/ClothingE-commerceReview/ReviewAnalysis)  
 
----
 
 ## Repository Contents  
 - **Women Clothing Review Analysis (PDF)**: Business report covering all steps, from data preparation to final business application.  
